@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+   min-height: 100vh;
+   background-color: blueviolet;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header > h1{
+   padding-top: 50px;
+   font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+
+section > p {
+
+    padding-bottom: 2em;
+}
+
+section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+    color: white;
+    background-attachment: fixed;
+
+}
+
+section.imagem > p{
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+   
+
+}
+
+section#img1{
+
+    background-image: url('imagens/pexels-elina-fairytale-3811138.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    
+}
+
+section#img2{
+
+    background-image: url('imagens/pexels-tim-9180339.jpg');
+    background-position:center center;
+    background-size: cover;
+
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+ 
+
+
+    
+    
+
+
+
+
+
