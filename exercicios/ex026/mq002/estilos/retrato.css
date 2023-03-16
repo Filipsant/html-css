@@ -2,4 +2,10 @@
 
 
 
-/* APARELHO EM PÉ (PORTRAIT0)*/
+/* APARELHO EM PÉ (PORTRAIT)*/
+
+
+body{
+background-image: url(../imagens/cev-portrait.jpg);
+background-position: center bottom;
+}
